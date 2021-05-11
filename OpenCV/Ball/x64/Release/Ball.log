@@ -1,0 +1,40 @@
+﻿빌드 시작: 2020-11-28 오후 7:43:29
+로깅의 세부 정보 표시가 Normal(으)로 설정되었습니다.     1>2 노드의 "D:\opencv\Ball\Ball\Ball.vcxproj" 프로젝트(Build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "x64\Release\Ball.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\CL.exe /c /I"C:\opencv-sources\opencv-4.1.0\build\include" /Zi /nologo /W3 /WX- /diagnostics:column /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc142.pdb" /Gd /TP /FC /errorReport:prompt Ball.cpp
+         Ball.cpp
+     1>D:\opencv\Ball\Ball\Ball.cpp(148,33): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>D:\opencv\Ball\Ball\Ball.cpp(149,33): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\opencv\Ball\x64\Release\Ball.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\opencv-sources\opencv-4.1.0\build\x64\vc16\lib" opencv_world410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\opencv\Ball\x64\Release\Ball.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\opencv\Ball\x64\Release\Ball.lib" /MACHINE:X64 x64\Release\Ball.obj
+         x64\Release\Comm.obj
+     1>LINK : warning LNK4075: '/INCREMENTAL'이(가) '/LTCG' 사양으로 인해 무시됩니다.
+         코드를 생성하고 있습니다.
+         1 of 181 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           0 functions had inline decision re-evaluated but remain unchanged
+         코드를 생성했습니다.
+         Ball.vcxproj -> D:\opencv\Ball\x64\Release\Ball.exe
+       FinalizeBuildStatus:
+         "x64\Release\Ball.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "x64\Release\Ball.tlog\Ball.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"D:\opencv\Ball\Ball\Ball.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+       "D:\opencv\Ball\Ball\Ball.vcxproj"(Build 대상)(1) ->
+       (ClCompile 대상) -> 
+         D:\opencv\Ball\Ball\Ball.cpp(148,33): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         D:\opencv\Ball\Ball\Ball.cpp(149,33): warning C4244: '=': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+
+
+       "D:\opencv\Ball\Ball\Ball.vcxproj"(Build 대상)(1) ->
+       (Link 대상) -> 
+         LINK : warning LNK4075: '/INCREMENTAL'이(가) '/LTCG' 사양으로 인해 무시됩니다.
+
+    경고 3개
+    오류 0개
+
+경과 시간: 00:00:03.36
